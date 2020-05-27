@@ -1,0 +1,252 @@
+.custom-container{
+    max-width: 600px;
+    margin: 0 auto 25px auto;
+}	
+.custom-container-2{
+	max-width: 1220px;
+    margin: 0 auto;
+}
+table thead{
+	background-color: #7f7f7f;
+    color: #fff;
+	font-size:15px;
+}
+.visto td{
+	background-color: rgba(150, 150, 248, 0.29);
+	border: solid 1px #2626fb;
+	
+}
+.enviado td{
+	background-color: rgba(241, 93, 93, 0.19);
+	border: solid 1px #c30000;
+	
+}
+.completado td{
+	background-color: rgba(201, 246, 201, 0.36);
+	border: solid 1px #87ef87;
+}
+.borrador td{
+	background-color: #f1f15d45;
+	border: solid 1px #d2d20e;
+}
+table td.sorting_1 {
+    font-weight: 900;
+}
+table th{
+	text-align: center;
+}
+table.dataTable th{
+	width:100px !important;
+	text-shadow: 1px 1px 1px #686868;
+    border: 1px solid #aaaaaa;
+    border-bottom: 1px solid #8e8e8e;
+	background: rgb(76,76,76); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(76,76,76,1) 0%, rgba(71,71,71,1) 59%, rgba(19,19,19,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(76,76,76,1) 0%,rgba(71,71,71,1) 59%,rgba(19,19,19,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(76,76,76,1) 0%,rgba(71,71,71,1) 59%,rgba(19,19,19,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+table.dataTable thead th:after{
+	color:#fff;
+	opacity:1;
+}
+.content-elements{
+	padding: 7px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    color: #fff;
+    background: rgba(0, 68, 129, 0.65);
+}
+table.dataTable {
+	margin-bottom: 0px !important;
+}
+table.dataTable td, table.dataTable th{
+	height:30px;
+	padding:8px 5px;
+}
+table.dataTable td.tool{
+	display:inline-block;
+	padding:5px;
+}	
+.popover{
+	max-width:inherit !important;
+}
+table tbody tr{
+	 position:relative;
+	margin: 10px 0;
+}
+table.dataTable td{
+	 margin: 0 auto;
+	 overflow: hidden;
+	 -webkit-box-orient: vertical;
+	 text-overflow: ellipsis;
+	 color: #636363;
+}
+.btn-formularios{
+	border-radius: 3px;
+    padding: 5px 41px;
+    background-color: #494949;
+	transition:all 0.3s;
+	text-transform:uppercase;
+	font-size:15px;
+}
+
+.btn-formularios:hover{
+    background-color: #a0a0a0;
+    border: 1px solid #404040;
+    color: #fcfcfc;
+}
+
+.site-header{
+	background-color: #004481;
+	margin-bottom: 25px;
+}
+.content-logo{
+	width: 266px;
+    padding: 8px 0;
+    margin: 0 auto;
+}
+.logos-footer{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 25px 0;
+}
+.logo-footer{
+	width:100%;
+	max-width: 260px;
+}
+.container-footer{
+	margin-bottom: 25px;
+}
+.jumbotron {
+    background-color: #f4f4f4;
+    border: solid 1px #c4c4c4;
+}
+.a-divider-inner{
+    height: 44px;
+    margin-bottom: -18px;
+    background: -webkit-linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+    background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+    z-index: 0;
+    zoom: 1;
+}
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #0062bb;
+    border-color: #494949;
+    font-weight: 700;
+}
+.page-header {
+    padding-bottom: 9px;
+    margin: 0px 0 20px;
+    border-bottom: 1px solid #eee;
+    font-size: 25px;
+}
+.panel {
+	background-color: #f3f3f3;
+}
+.btn-descarga{
+	margin-bottom:25px;
+}
+#datosForm td{
+	border: 1px solid #e1e1e1;
+	padding: 0 5px !important;
+}
+#datosForm img{
+	height:auto !important;
+}
+.content-datosForm #datosForm_wrapper .col-sm-12{
+	overflow: auto;
+    margin-bottom: 25px;
+}
+.content-datosForm #datosForm_wrapper td, .content-datosForm #datosForm_wrapper th {
+    white-space: nowrap;
+}
+.btn{
+	transition:all 0.3;
+}
+.btn-success {
+    color: #fff;
+    background-color: #84b0d8;
+    border-color: #004481;
+    border-radius: 3px;
+}
+.btn-login{
+	padding: 2px 23px;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+.fa-user:before {
+    color: #00aeef;
+}
+.fa-lock:before {
+    color: red;
+    font-size: 21px;
+    line-height: 29px;
+}
+.container-jumbo{
+	padding-right: 10px !important;
+	padding-left: 10px !important;
+	padding-top: 0;
+	border-radius: 0 !important;
+	background-color: #f9f9f9;
+	max-width: 600px;
+	margin: 25px auto;
+}
+.container-jumbo-2{
+	background-color: #f3f2f2;
+    max-width: 419px;
+	margin: 25px auto;
+	padding-right: 10px !important;
+    padding-left: 10px !important;
+	padding-bottom:10px;
+}
+.title-jumbotron{
+	background-color: #70a5d5;
+	color: #fff !important;
+	font-size: 23px !important;
+	padding: 10px;
+	margin: 0;
+	margin-bottom: 33px;
+	margin-right: -10px;
+	margin-left: -10px;
+	text-transform: uppercase;
+}
+.btn-default:hover{
+    color: #fff;
+    background-color: #00aeef;
+    border-color: #adadad;
+}
+.btn-default:hover .fa-user:before {
+    color: #fff;
+}
+@media (max-width: 680px){
+	table .cf:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+	table * html .cf { zoom: 1; }
+	table *:first-child+html .cf { zoom: 1; }
+	table { width: 100%; display: block; position: relative;  border-collapse: collapse; border-spacing: 0;border:0px }
+	table th,
+	table td { margin: 0; vertical-align: top; }
+	table.dataTable th { text-align: left; width: 60px !important; }
+	table thead { display: block; float: left;    position: relative;z-index: 1; }
+	table tbody { display: block; width: auto; position: relative; overflow-x: auto; white-space: nowrap; }
+	
+	table th { display: block; text-align: left;font-size: 12px;}
+	table tbody tr { display: inline-block; vertical-align: top;}
+	table td { display: block; min-height: 1.25em; text-align: left; }
+	 
+	table th { border-left: 1px solid #ddd;border-bottom: 0px;border-top: 1px solid #ddd;padding: 10px 12px 5px 12px;}
+	table td { border-left: 0;border-top: 0;border-right: 1px solid #ddd;border-bottom: 1px solid #ddd;padding: 7px 9px 8px 9px; }
+	table tbody tr { border-left: 1px solid #ddd;border-top: 1px solid #ddd;margin: 0; }
+	
+	table td.sorting_1 {font-weight: 900;text-align: left;}
+	.dataTables_wrapper {width: 90%;}
+	.pagination {font-size: 12px;}
+	.logos-footer {padding: 0;}
+}

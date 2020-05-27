@@ -1,0 +1,27 @@
+{
+  "name": "unity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^2.0.3",
+    "asyncawait": "^1.0.6",
+    "body-parser": "^1.17.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "email-templates": "^3.0.3",
+    "express": "^4.15.3",
+    "express-fileupload": "^0.1.4",
+    "express-session": "^1.15.5",
+    "mongodb": "^2.2.30",
+    "nodemailer": "^4.0.1",
+    "officegen": "^0.4.5",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "password-generator": "^2.1.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

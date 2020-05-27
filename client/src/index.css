@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1{
+  color:#2A5762;
+}
+.legal {
+  font-size: 9px;
+  display: block;
+  clear: both;
+  margin: 25px auto;
+  color: #8b8b8b;
+  max-width:1200px;
+  text-align:center;
+}
+.content-form-empresas{
+	max-width:650px;
+	margin:0 auto 25px auto;
+	padding: 0px 10px 25px 10px;
+	background-color: #f4f4f4;
+    border: solid 1px #d2d1d1;
+    border-radius: 12px;
+}
+.title-form-empresas{
+	margin: 0px -11px 0 -10px;
+    padding: 5px 10px;
+    border-radius: 5px 5px 0 0px;
+    background-color: #a8a8a8;
+    color: #fff;
+	font-size:25px;
+	text-align:center;
+}
+.content-drop-img{
+	margin-bottom:25px;
+}
+.holder-name{
+	font-size: 20px;
+    margin: 10px 0;
+    font-weight: 700;
+}

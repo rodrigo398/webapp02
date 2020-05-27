@@ -1,0 +1,27 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "material-ui": "^0.18.7",
+    "query-string": "^5.1.1",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-dropzone": "^3.13.4",
+    "react-loader-advanced": "^1.7.1",
+    "react-modal": "^2.4.1",
+    "react-native": "^0.47.2",
+    "react-scripts": "1.0.10",
+    "simple-react-form": "^1.9.4",
+    "simple-react-form-material-ui": "^1.7.13",
+    "superagent": "^3.8.3",
+    "whatwg-fetch": "^2.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000"
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
+    <link href="./static/css/bootstrap.min.css" rel="stylesheet">
+	<link href="./static/css/styles.css" rel="stylesheet">	
+	<title>Editar nombre de empresas ya cargadas</title>
+</head>
+<body>
+	<header class="site-header">
+		<div class="content-logo">
+			<a href="https://www.cronista.com/" target="_blank"  title="El Cronista">
+				<img src="img/lg_cronista_web.svg" alt="El Cronista" width="270" height="40" />
+			</a>
+		</div>
+	</header>
+	<div class="container">
+		<div class="custom-container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1 class="page-header">Editar nombres de empresas cargadas</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							Elegí la empresa a la que querés cambiarle el nombre
+						</div>
+						<div class="panel-body">
+							<div class="col-lg-12">
+								<form id="enviodatos" role="form">
+									<div class="form-group">
+										<label>
+											Empresa a la que cambiarle el nombre
+										</label>
+										<select class="form-control" name="idEmpresa" id="empresaOriginal">
+										</select>
+									</div>
+									<div class="form-group">
+										<label>
+											Nombre a poner
+                                        </label>
+                                        <input class="form-control" name="nuevoNombre" id="nuevoNombre"></input>
+									</div>
+									<div style="margin-bottom:10%">
+										<button id="enviar" type="submit" class="btn btn-success pull-right">Enviar datos</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+					<a href="/home" title="Volver" class="btn btn-lg btn-primary btn-formularios">Volver</a>
+				</div>
+			</div>
+			<div id="modalCarga" class="modal fade" style="display:none;">			
+				<div class="modal-dialog" style="top:50%;">		
+					<div class="modal-content" >
+						<div class="modal-body">
+							<div>Enviando mails..</div>
+							<img style="display:block; margin:auto; width:6%; position:fixed; top:50%; left:50%; margin-left:-3%; margin-top:-3%" src="https://perfilesdb.cronista.com/images/spinner.gif">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="site-footer clearfix">
+		<div class="a-divider-inner"></div>
+		<div class="logos-footer clearfix">				
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
+				<a href="https://www.cronista.com/" target="_blank"><img class="logo-footer" src="img/lg_cronista_web2.svg" width="180" height="60"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
+				<a href="http://www.apertura.com" target="_blank"><img class="logo-footer" src="img/lg_revista_apertura.svg" width="180" height="50"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
+				<a href="http://www.infotechnology.com" target="_blank"><img class="logo-footer" src="img/lg_revista_technology.svg" width="180" height="50"></a>
+			</div>				
+		</div>
+	</footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="./static/js/editarnombre.js"></script>
+</html>
