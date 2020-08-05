@@ -12,7 +12,7 @@
     "ejs": "^2.5.7",
     "email-templates": "^3.0.3",
     "express": "^4.15.3",
-    "express-fileupload": "^0.1.4",
+    "express-fileupload": "^1.1.9",
     "express-session": "^1.15.5",
     "mongodb": "^2.2.30",
     "nodemailer": "^4.0.1",
