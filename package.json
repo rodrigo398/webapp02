@@ -14,7 +14,7 @@
     "express": "^4.15.3",
     "express-fileupload": "^1.1.9",
     "express-session": "^1.15.5",
-    "mongodb": "^2.2.30",
+    "mongodb": "^3.6.1",
     "nodemailer": "^4.0.1",
     "officegen": "^0.4.5",
     "passport": "^0.4.0",
