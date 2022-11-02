@@ -10,7 +10,7 @@
     "react-dropzone": "^3.13.4",
     "react-loader-advanced": "^1.7.1",
     "react-modal": "^2.4.1",
-    "react-native": "^0.47.2",
+    "react-native": "^0.70.4",
     "react-scripts": "1.0.10",
     "simple-react-form": "^1.9.4",
     "simple-react-form-material-ui": "^1.7.13",
